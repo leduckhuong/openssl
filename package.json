@@ -13,6 +13,7 @@
     "certificate",
     "authority"
   ],
+  "git repository": "https://github.com/leduckhuong/openssl.git",
   "author": "leduckhuong",
   "license": "ISC",
   "devDependencies": {
