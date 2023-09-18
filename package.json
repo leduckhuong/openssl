@@ -1,0 +1,26 @@
+{
+  "name": "openssl",
+  "version": "1.0.0",
+  "description": "openssl with CA available",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --inspect ./src/index.js"
+  },
+  "keywords": [
+    "openssl",
+    "ca",
+    "certificate",
+    "authority"
+  ],
+  "author": "leduckhuong",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
