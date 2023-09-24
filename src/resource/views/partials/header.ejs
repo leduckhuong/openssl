@@ -1,0 +1,13 @@
+<header class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">
+        <img src="/imgs/logo.png" width="30" height="30" class="d-inline-block align-top">
+        <span class="text-uppercase">openssl ca</span>
+    </a>
+    <%if(!(typeof(isCA)=='boolean' && isCA)) {%>
+        <ul class="nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link active text-uppercase" href="ca">get ca</a>
+            </li>
+        </ul>
+    <%}%>
+</header>
