@@ -12,7 +12,10 @@
 <body>
     <%- include('partials/header') %>
     <%if(typeof(isCA)=='boolean' && isCA) { %>
-        <%- include('ca/ca') %>
+        <%- include('certificates/ca') %>
+    <%}%>
+    <%if(typeof(certificateData)=='string' && certificateData) { %>
+        <%- include('certificates/preview') %>
     <%}%>
 </body>
 </html>

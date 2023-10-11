@@ -1,3 +1,5 @@
 /node_modules/
+/src/certificates/
+
 .env
 package-lock.json
